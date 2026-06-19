@@ -14,8 +14,7 @@ User-agent: Claude-SearchBot
 User-agent: Claude-User
 Allow: /
 
-# Blocked AI training / bulk-scraping crawlers (pages and images alike). Also
-# enforced at the edge, so ignoring this still gets them nothing.
+# Blocked AI training / bulk-scraping crawlers (pages and images alike).
 User-agent: GPTBot
 User-agent: ClaudeBot
 User-agent: anthropic-ai
