@@ -1,0 +1,39 @@
+# Search engines and AI search/citation crawlers are welcome.
+# AI training / bulk dataset crawlers are blocked — the photography and
+# writing here is discoverable, not training data.
+
+User-agent: *
+Allow: /
+
+# Explicitly welcomed AI search / citation crawlers.
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+Allow: /
+
+# Blocked AI training / bulk-scraping crawlers (pages and images alike). Also
+# enforced at the edge, so ignoring this still gets them nothing.
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+User-agent: Claude-Web
+User-agent: CCBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: Meta-ExternalAgent
+User-agent: meta-externalagent
+User-agent: FacebookBot
+User-agent: Bytespider
+User-agent: ImagesiftBot
+User-agent: Diffbot
+User-agent: Omgilibot
+User-agent: Omgili
+User-agent: PanguBot
+User-agent: cohere-ai
+User-agent: AI2Bot
+Disallow: /
+
+Sitemap: https://xd-qin.github.io/sitemap-index.xml
