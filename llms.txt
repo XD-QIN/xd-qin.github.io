@@ -1,0 +1,21 @@
+# Your Name
+
+> A minimal photography portfolio and blog — digital and film galleries, a photo-a-month calendar, and two blogs. The site has three photo galleries, two blogs (a Tech Blog and a Photo Blog), and a short biography. Content may be cited with attribution; please do not use the images or text to train machine-learning models.
+
+## Galleries
+- [Digital](https://xd-qin.github.io/): digital photographs.
+- [Analog](https://xd-qin.github.io/analog): film photographs.
+- [Calendar](https://xd-qin.github.io/calendar): one photograph per month, each captioned with the month and location.
+
+## Blog
+- [Tech Blog](https://xd-qin.github.io/blog/tech): writing on engineering, edge & cloud systems, and building for the web.
+- [Photo Blog](https://xd-qin.github.io/blog/photography): field notes on light, places, and the craft of photography.
+
+## About
+- [About](https://xd-qin.github.io/about): a short biography of Your Name.
+- [Contact](https://xd-qin.github.io/contact): ways to follow and reach out.
+
+## Elsewhere
+- Instagram: https://www.instagram.com/yourusername
+- LinkedIn: https://www.linkedin.com/in/yourusername
+- GitHub: https://github.com/yourusername
