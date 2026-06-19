@@ -1,8 +1,11 @@
-# Cloudflare Pages headers.
+# Static-host response headers. The _headers convention is read by several
+# static hosts (e.g. Netlify, Cloudflare Pages); on hosts that ignore it the file
+# is simply an unused static asset. To apply the same headers on Nginx/Apache/S3,
+# translate the rules below into that server's config.
 
 # Security headers on every response.
 /*
-  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; form-action 'self'; frame-ancestors 'none'; img-src 'self'; font-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com; connect-src 'self' https://cloudflareinsights.com
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; form-action 'self'; frame-ancestors 'none'; img-src 'self'; font-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
